@@ -1,0 +1,136 @@
+body{margin: 0px;} /* Determian el margen de la pagina en 0 para no ver espacion en blanco*/
+
+main{ 
+    background-color: rgb(29, 29, 29); /*Determina un color de fondo*/
+    height: auto; /*Determina ala altura de la pagina*/
+    max-width: 1200px; /*Determina el ancho de la pagina*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Imagen{
+    height: 490px;
+    z-index: 2;
+}
+
+.baner{
+    background-color: rgb(221, 216, 208);
+    background-image: url(./fondo.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-container{
+    background-color: rgb(97, 0, 139);
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    margin-top: 100px;
+    border: 10px rgb(29, 29, 29) solid;
+}
+
+.Nombre{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.Parrafo{
+    text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social{
+    margin-top: 60px;
+}
+
+.Social_tittle{
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_item{
+    display: flex;
+    align-items: center;
+    border: 3px #fbfaf9 dashed;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Proyects{
+    margin-top: 68px;
+}
+
+.Proyects_tittle{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.hobbies_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: #cbc6c0 dotted 10px;
+    border-radius: 30px;
+    padding: 100px;
+    padding-left: 15px;
+
+}
+
+.texto_hobbie{
+    color: aliceblue;
+    display: flex;
+    font-size: 20px;
+    padding: 8px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+.Contenedor_PDP{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto_PDP{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
